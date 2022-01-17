@@ -19,4 +19,6 @@ Route::get('/', function () {
 
 Route::get('flights', 'FlightController@index')->name('flights');
 
-Route::get('flights/{flight}', 'flightController@show')->name('flight');
+Route::get('flights/{flight}', 'FlightController@show')->name('flight');
+
+Route::get('posts', 'PostController@index')->name('posts');

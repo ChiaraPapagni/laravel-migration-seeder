@@ -2,9 +2,12 @@
 
 @section('content')
 
-<div class="d_f justify_content_center align_item_center my_2">
+<div class="text-center mt-5">
     <a href="{{route('flights')}}">
-        <h1>Go to Flights</h1>
+        <h1 class="py-4">Go to Flights</h1>
+    </a>
+    <a href="{{route('posts')}}">
+        <h1 class="py-4">Go to Blog</h1>
     </a>
 </div>
 
